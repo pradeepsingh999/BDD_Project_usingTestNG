@@ -1,0 +1,5 @@
+
+
+username=.//*[@id='nsfloginform:userName']
+password=.//*[@id='nsfloginform:pass']
+loginButton=.//*[@id='nsfloginform:login']

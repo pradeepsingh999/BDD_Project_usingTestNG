@@ -1,0 +1,171 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.nsf</groupId>
+  <artifactId>BDD_Project_Using_TestNG</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>BDD_Project_Using_TestNG</name>
+  <build/>
+  
+  
+  
+  
+  
+  
+
+  	<properties>
+
+		<selenium-java>3.14.0</selenium-java>
+	<!-- 	<selenium-java>4.0.0-alpha-5</selenium-java> -->
+
+
+ 		<io.cucumber.cucumber-core>5.5.0</io.cucumber.cucumber-core> 
+
+
+
+		 <io.cucumber.cucumber-java>5.5.0</io.cucumber.cucumber-java> 
+		
+			
+		<TestNG>7.1.0</TestNG>
+		
+		
+		<cucumber-TestNG>1.2.6</cucumber-TestNG>
+		
+		<webdrivermanager>3.8.1</webdrivermanager>
+		
+		<surefire.plugin.version>2.19.1</surefire.plugin.version>
+
+
+
+	</properties>
+
+
+
+<dependencies>
+
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>${io.cucumber.cucumber-core}</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-jvm-deps</artifactId>
+    <version>1.0.6</version>
+    <scope>provided</scope>
+</dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>gherkin</artifactId>
+    <version>12.0.0</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-all</artifactId>
+    <version>1.10.19</version>
+    <scope>test</scope>
+</dependency>
+
+
+
+
+
+
+
+   <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>${io.cucumber.cucumber-java}</version>
+        <scope>test</scope>
+    </dependency>
+
+
+
+
+
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>${TestNG}</version>
+    <scope>test</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>${cucumber-TestNG}</version>
+    <type>pom</type>
+</dependency>
+
+		
+
+
+
+
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>${webdrivermanager}</version>
+</dependency>
+
+
+
+
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>${selenium-java}</version>
+</dependency>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</dependencies>
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</project>
